@@ -1,4 +1,4 @@
-<?= get_header(); ?>
+<?= get_header();?>
 
 <!-- Start Breadcrumb 
     ============================================= -->
@@ -6,10 +6,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <h1>Contact Us</h1>
+                    <h1>Pendaftaran</h1>
                     <ul class="breadcrumb">
                         <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li class="active">Contact</li>
+                        <li class="active">Pendaftaran</li>
                     </ul>
                 </div>
             </div>
@@ -24,7 +24,7 @@
             <div class="row align-center">
                 <div class="col-lg-6 contact-form-box">
                     <div class="form-box">
-                        <form action="pendaftaran/add"  method="post" enctype="multipart/form-data">              
+                        <form action="pendaftaran/add_save"  method="post" class="contact-form">              
                         <h3><b>DATA PEMOHON</b></h3>
                             <div class="row">
                                 <div class="col-lg-6">
@@ -32,19 +32,7 @@
                                         <input class="form-control" name="nomor_surat" placeholder="Nomor Surat" type="text">
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group">
-                                        <input class="form-control" name="tempat" placeholder="Tempat" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group">
-                                        <input class="form-control" name="tanggal_surat" placeholder="Tanggal Surat" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="form-group">
                                         <input class="form-control" name="nama_perusahaan" placeholder="Nama Perusahaan" type="text">
                                     </div>
@@ -85,29 +73,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="row">
+                            <div class="row">
                                 <div class="col-lg-12">
                                     <button type="submit">
                                         Send Message <i class="fa fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div> 
-                        </form> -->
+                        </form>
                     </div>
                 </div>
                 <div class="col-lg-6 contact-form-box">
                     <div class="form-box">
                         <h3><b>DATA TANAH</b></h3>
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="form-group">
                                         <input class="form-control" id="name" name="nama_pemilik" placeholder="Nama Pemilik" type="text">
                                         <span class="alert-error"></span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="form-group comments">
                                         <textarea class="form-control" id="alamat" name="alamat_pemilik" placeholder="Alamat Pemilik" style="min-height:70px"></textarea>
                                     </div>
@@ -242,10 +228,10 @@
                                 </div>
                             </div>                            
                             <!-- Alert Message -->
-                            <div class="col-lg-12 alert-notification">
+                            <!-- <div class="col-lg-12 alert-notification">
                                 <div id="message" class="alert-msg"></div>
-                            </div>
-                        </form>
+                            </div> -->
+                        <!-- </form> -->
                     </div>
                 </div>
                 <div class="col-lg-6  contact-form-box">
@@ -257,9 +243,10 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
     <!-- End Contact Area -->
 
-<?= get_footer(); ?>
+<?= get_footer();?>

@@ -1,0 +1,30 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['pendaftaran'] = 'Pendaftaran';
+$lang['id_pendaftaran'] = 'Id Pendaftaran';
+$lang['tempat'] = 'Tempat';
+$lang['tanggal_surat'] = 'Tanggal Surat';
+$lang['nomor_surat'] = 'Nomor Surat';
+$lang['nama_perusahaan'] = 'Nama Perusahaan';
+$lang['alamat_perusahaan'] = 'Alamat Perusahaan';
+$lang['nama_penanggungjawab'] = 'Nama Penanggungjawab';
+$lang['no_telepon_kantor'] = 'No Telepon Kantor';
+$lang['jabatan'] = 'Jabatan';
+$lang['no_hp'] = 'No Hp';
+$lang['nama_pemilik'] = 'Nama Pemilik';
+$lang['alamat_pemilik'] = 'Alamat Pemilik';
+$lang['lokasi_tanah'] = 'Lokasi Tanah';
+$lang['luas_tanah'] = 'Luas Tanah';
+$lang['no_persil_tanah'] = 'No Persil Tanah';
+$lang['tanah_dipakai'] = 'Tanah Dipakai';
+$lang['latitude'] = 'Latitude';
+$lang['longitude'] = 'Longitude';
+$lang['ktp_pemohon'] = 'Ktp Pemohon';
+$lang['akte_perusahaan'] = 'Akte Perusahaan';
+$lang['surat_perjanjian'] = 'Surat Perjanjian';
+$lang['jumlah_titik_menara'] = 'Jumlah Titik Menara';
+$lang['kontruksi_menara'] = 'Kontruksi Menara';
+$lang['sp_fo_ducting'] = 'Sp Fo Ducting';
+$lang['gambar_site'] = 'Gambar Site';
+$lang['sp_menara_bersama'] = 'Sp Menara Bersama';
